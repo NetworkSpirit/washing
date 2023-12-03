@@ -1,0 +1,139 @@
+//profile
+.profileContent {
+  img {
+    margin: 64px 0 0 107px;
+  }
+  .form {
+    width: 698px;
+    height: 272px;
+    display: grid;
+    label {
+      position: relative;
+      left: 424px;
+      top: -166px;
+    }
+    input {
+      width: 493px;
+      height: 48px;
+      position: relative;
+      left: 629px;
+      top: -200px
+    }
+    button {
+      width: 200px;
+      height: 25px;
+      border: none;
+      background-color: #221F1F;
+      color: #FFFFFF;
+      font-size: 14px;
+      position: relative;
+      left: 907px;
+      top: -200px;
+      margin-top: -38px;
+    }
+  }
+  button {
+    display: block;
+    width: 185px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #221F1F;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    left: 1148px;
+    top: -456px;
+    margin-bottom: 16px;
+  }
+  .btnAdmin {
+    width: 702px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #221F1F;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    top: -100px;
+    left: 422px;
+  }
+  .tg {
+    background-color: #FFFFFF;
+    width: 698px;
+    height: 50px;
+    position: absolute;
+    left: 424px;
+    top: 560px;
+    bottom: 0;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.28));
+    p {
+      margin: 16px 0 0 16px;
+      font-size: 18px;
+    }
+    button {
+      width: 254px;
+      height: 26px;
+      border: none;
+      background-color: #68A8E5;
+      color: #FFFFFF;
+      position: absolute;
+      left: 428px;
+      top: 11px;
+      font-size: 12px;
+    }
+  }
+}
+
+//history
+.containerBlock {
+  margin-bottom: 24px;
+}
+.history {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 24px 107px;
+}
+.container {
+  width: 1022px;
+  height: 536px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-left: 107px;
+  .contentItem {
+    width: 1017px;
+    height: auto;
+    box-shadow: 2px 3px 4px rgba(194, 194, 194, 0.25);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 16px;
+    .order {
+      margin-left: 24px;
+      margin-right: 124px;
+    }
+    p {
+      font-size: 16px;
+      display: inline-block;
+      margin: 36px 0 0 46px;
+    }
+    .btn {
+      position: relative;
+      top: -26px;
+      width: 209px;
+      height: 38px;
+      left: 780px;
+      border: none;
+      background-color: #221F1F;
+      color: #FFFFFF;
+      font-size: 16px;
+    }
+    .info {
+      display: grid;
+      position: relative;
+      left: -20px;
+      top: -40px;
+    }
+    .infoItems {
+      position: relative;
+      left: -48px;
+      top: -20px;
+    }
+  }
+}

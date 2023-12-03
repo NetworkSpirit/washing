@@ -1,0 +1,92 @@
+
+.Carousel {
+    width: 1014px;
+    height: 400px;
+    position: relative;
+    margin: 30px 0 0 50px;
+    bottom: 100px;
+    left: 213px;
+    &__slide {
+        overflow: hidden;
+        width: 100%;
+        height: 302px;
+        display: flex;
+    }
+    h3{
+        position: relative;
+        left: -100px;
+    }
+    &__item {
+        min-width: 186px;
+        height: 290px;
+        background-color: #FFFFFF;
+        margin-left: 20px;
+        filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.2));
+    }
+    &__button {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        background-color: #FFFFFF;
+        color: #221F1F;
+        border-radius: 100%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        filter: drop-shadow(1px 5px 6px rgba(18, 21, 24, 0.2));
+        &_prev {
+            left: -100px;
+            top: 38%;
+        }
+        &_next {
+            right: -100px;
+            top: 38%;
+        }
+    }
+}
+.Carousel h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.contentBtn {
+    position: absolute;
+    left: 500px;
+}
+.img {
+    position:relative;
+    width:186px;
+    height:186px;
+}
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+}
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.video {
+    width: 1110px;
+    height: 350px;
+
+    margin: 30px 0 0 50px;
+    bottom:200px;
+    &__element{
+        overflow: hidden;
+        width: 100%;
+        height: 302px;
+        display: flex;
+    }
+}

@@ -1,0 +1,49 @@
+.filtersContent {
+  width: 289px;
+  float: left;
+  position: relative;
+  top: 39px;
+  left: 107px;
+}
+
+.filter_dropdown {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.filter_dropdown input[type="checkbox"] {
+  margin-right: 5px;
+}
+.buttonActive {
+  color:#fff;
+  background-color:black;
+}
+
+.buttonNotActive {
+  color:#fff;
+  background-color:#948f8f;
+}
+.btn {
+  position: relative;
+  top: 40px;
+  background-color: #221F1F;
+  color: #FFFFFF;
+  width: 289px;
+  height: 32px;
+  border: none;
+  font-size: 18px;
+}
+.btn:active {
+  background-color: #ffd700;
+  color: #221F1F;
+}
+.clear {
+  border: none;
+  background: none;
+  position: relative;
+  left: 190px;
+  top: 38px;
+  font-size: 14px;
+  font-weight: lighter;
+}

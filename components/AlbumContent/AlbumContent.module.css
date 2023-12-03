@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+
+.container {
+    margin-top: -250px;
+    margin-left: 107px;
+}
+
+.contentAlbum {
+    width: 1120px;
+    height: 284px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; 
+    margin-bottom: 40px;
+}
+.contentAlbum::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+    background-color: #A9A9A9;
+}
+.contentAlbum::-webkit-scrollbar-thumb {
+    background-color: #221F1F;/* цвет бегунка */
+    border-radius: 10px; /* округлось бегунка */
+}
+.container h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.type {
+    display: flex;
+    align-items: center; 
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.musicName {
+    margin-left: 50px; 
+}
+.line {
+    width: 97%;
+    border: 1px solid rgba(34, 31, 31, 0.15);
+}
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-bottom: 8px;
+}
+
+.info {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-bottom: 8px;
+} 

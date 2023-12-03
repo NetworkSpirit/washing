@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+.product {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.album {
+    width: 497px;
+    height: 497px;
+    margin: 64px 0 0 100px;
+    border-radius: 10px;
+}
+
+.itemName {
+    position: relative;
+    width: 600px;
+    left: 730px;
+    bottom: 590px;
+    font-size: 18px; 
+    font-weight: 600; 
+    margin-top: 70px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.infoPrice {
+    position: relative;
+    left: 731px;
+    bottom: 600px;
+    width:150px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.price {
+    font-size: 24px;
+    font-weight: 400;
+}
+.btnBuy {
+    position: relative;
+    width: 161px;
+    height: 38px;
+    color: #FFFFFF;
+    background-color: #221F1F;
+    font-size: 16px;
+    font-weight: 400;
+    left: 730px;
+    border: none;
+    bottom:600px;
+}
+.albumItemInfo {
+    position:relative;
+    left:730px;
+    bottom: 560px;
+    width: 600px;
+}
+
+.trackList {
+    position: relative;
+    left: 0px; 
+    bottom: 200px; 
+    width: 1100px;
+}

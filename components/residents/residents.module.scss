@@ -1,0 +1,90 @@
+.container {
+  margin-top: 22px;
+  .content {
+    width: 367px;
+    height: 48px;
+    margin: 0 0 16px 8px;
+    background-color: #FAFAFA;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+    .btn {
+      border: none;
+      background: none;
+      margin-left: 250px;
+      position: relative;
+      top: -16px;
+    }
+  }
+  p {
+    display: inline-block;
+    margin: 16px 0 0 32px;
+  }
+}
+.active {
+  margin: -10px 0 16px 8px;
+  width: 367px;
+  height: 48px;
+  display: block;
+  background-color: #eeeeee;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+  a {
+    position: relative;
+    top: 14px;
+    left: 14px;
+  }
+}
+.nonActive {
+  display: none;
+}
+.blockEvent {
+  position: relative;
+  top: -396px;
+  width: 392px;
+  height: 264px;
+  background-color: #FFFFFF;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 111px 0 0 940px;
+}
+.media {
+  font-weight: 500;
+  font-size: 24px;
+  position: relative;
+  margin-left: 109px;
+  top: 64px;
+}
+.event {
+  font-weight: 500;
+  font-size: 24px;
+  position: relative;
+  top: -336px;
+  margin-left: 941px;
+}
+.blockMedia {
+  width: 703px;
+  height: 264px;
+  background-color: #FFFFFF;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.25));
+  margin: 111px 0 0 109px;
+  h1 {
+    width: 296px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 312px;
+    position: relative;
+    top: -234px;
+  }
+  p {
+    font-size: 12px;
+    width: 391px;
+    margin-left: 312px;
+    position: relative;
+    top: -220px;
+  }
+  .video {
+    width: 269px;
+    height: 208px;
+    background-color: #609FFF;
+    margin: 24px;
+  }
+}

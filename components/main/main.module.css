@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+.vinylList {
+    position: relative;
+    top: 14px;
+    left: 228px;
+    width: 808px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    margin-bottom: 64px;
+}
+.moreAction {
+    color: #FFFFFF;
+    background-color: #221F1F;
+    border: none;
+    width: 180px;
+    height: 32px;
+    margin-bottom: 64px;
+    position: relative;
+    font-size: 18px;
+    left: 62%;
+    transform: translate(-50%, 0);
+}
+.moreAction:active {
+    background-color: #ffd700;
+    color: #221F1F;
+}
+.select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #A9A9A9;
+    width: 184px;
+    height: 30px;
+    border-radius: 0;
+    background: none;
+    outline: none;
+    padding: 7px 0 8px 8px;
+    cursor: pointer;
+}
+.select::-ms-expand {
+    display: none;
+}

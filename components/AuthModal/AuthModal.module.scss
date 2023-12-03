@@ -1,0 +1,30 @@
+.activeForm {
+  z-index: 1;
+  position: relative;
+  top: 70px;
+  margin: auto auto;
+  display: block;
+  width: 344px;
+  height: 570px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 3px 4px rgba(194, 194, 194, 0.25);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+  label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 23px;
+    color: #221F1F;
+  }
+  input {
+    display: grid;
+    margin: auto auto;
+    width: 296px;
+    height: 44px;
+    background-color: #F7F7F7;
+    box-shadow: 2px 3px 4px rgba(194, 194, 194, 0.25);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+.nonActiveForm {
+  display: none;
+}

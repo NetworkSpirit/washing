@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+.accordion {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.span {
+  width: 1px;
+  height: 1px;
+  border: 6px solid transparent; border-top: 6px solid #000000;
+  position: relative;
+  right: 226px;
+  bottom: 6px;
+}
+.accordion p {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+.accordionActive {
+  display: block;
+}
+
+.accordionNonActive {
+  display: none;
+}
+
+.checkboxContainer {
+  display: grid;
+  max-height: 100px; /* Set a maximum height for the options list */
+  overflow-y: auto; /* Add a scrollbar when the content exceeds the max height */
+  overflow-x: hidden;
+}
+
+.checkboxItem {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+
+.input[type="checkbox"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.input[type="checkbox"]:hover {
+  background-color: #ffd700;
+}
+
+.input[type="checkbox"]:checked {
+    background-color: #ffd700;
+}
+.line {
+  position: relative;
+  top: 40px;
+  margin-bottom: 40px;
+  border: 0.5px solid #A9A9A9;
+}
+.checkboxContainer label {
+  position: relative;
+  left: 30px;
+  bottom: 18px;
+}
+.checkboxContainer::-webkit-scrollbar {
+  width: 2px;
+  border-radius: 10px;
+  background-color: #A9A9A9;
+}
+.checkboxContainer::-webkit-scrollbar-thumb {
+  background-color: #221F1F;    /* цвет бегунка */
+  border-radius: 10px;       /* округлось бегунка */
+}

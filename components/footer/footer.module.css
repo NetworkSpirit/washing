@@ -1,0 +1,101 @@
+/* Footer Container */
+.footer {
+    background-color: #221F1F; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 0; /* Adjust padding as needed */
+    width: 100%;
+    height: 279px;
+    position: relative;
+  }
+  
+  .footer_logo {
+    width: 140px;
+    height: 60px;
+    position: relative;
+    top: 42px;
+    left: 122px;
+    padding: 0;
+  }
+
+  .social_icons {
+    position: relative;
+    top: 46px;
+    left: 92px;
+    margin: 23px;
+    width: 150px;
+    height: 20px;
+  }
+
+ .social_icons a {
+    margin: 5px; 
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Footer Columns Styles */
+.footer_columns {
+    position: absolute;
+    top: 41px;
+    left: 500px;
+  }
+.footer_column {
+    display: inline-block;
+    position: relative;
+    margin-left: 86px;
+}
+.lineColumns {
+    position: absolute;
+    top: 274px;
+    left: 500px;
+}
+.lineColumn {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.lineColumn a{
+    margin-left: 84px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.pol {
+    position: relative;
+    left: -40px;
+}
+.polit {
+    position: relative;
+    left: -70px;
+}
+
+  /* Column Titles Styles */
+  .footer_column h4 {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+  }
+  .footer_column a {
+    display: grid;
+    margin-bottom: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color:#fff
+  }
+  .footer_column p {
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Set the font family */
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .line {
+      position: relative;
+      top: 100px;
+      border: 0.5px solid #CDCDCD;
+  }

@@ -1,0 +1,68 @@
+.container {
+  margin-left: 109px;
+  margin-bottom: 70px;
+  h1 {
+    margin: 64px 0 24px 0;
+    font-size: 24px;
+  }
+  .content {
+    width: 1225px;
+    height: 736px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+  }
+  .contentItem {
+    width: 1199px;
+    height: 64px;
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.2));
+    background-color: #FFFFFF;
+    margin-bottom: 8px;
+    h1 {
+      position: relative;
+      left: 161px;
+      top: -54px;
+      margin: 0;
+      font-size: 16px;
+    }
+    p {
+      position: relative;
+      left: 161px;
+      top: -50px;
+      display: inline;
+      font-size: 14px;
+    }
+    img {
+      width: 82px;
+      height: 64px;
+    }
+    .price {
+      position: relative;
+      top: -66px;
+      left: 600px;
+      font-size: 16px;
+    }
+    button {
+      position: relative;
+      top: -66px;
+      left: 700px;
+      width: 185px;
+      height: 32px;
+      border: 1px solid #AAAAAA;
+      color: #AAAAAA;
+      background: none;
+    }
+    .btn {
+      position: relative;
+      top: -62px;
+      left: 800px;
+      width: 28px;
+      height: 28px;
+      border-radius: 100%;
+      font-size: 20px;
+      border: 1px solid #AAAAAA;
+      color: #AAAAAA;
+      background: none;
+    }
+  }
+}
