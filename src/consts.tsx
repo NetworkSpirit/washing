@@ -1,0 +1,14 @@
+export const ADMIN_ROUTE = '/admin'
+export const HOME = '/home'
+export const PRODUCT = `/product`;
+export const BASKET = `/basket`;
+export const PROFILE = `/profile`;
+export const FAVORITES = `/favorites`
+export const ADMINADDINFO = '/AdminAddInfo';
+export const ADMINCONTROLBROADCAST = '/AdminControl';
+export const ADMINDELETE = '/AdminDelete';
+export const ADMINEDITVIDEO = '/AdminVideo';
+export const ADMININFOORDER = '/AdminInfo';
+export const ADMINADDVIDEO = '/AdminAddVideo';
+export const ADMIN = '/admin'
+export const RESIDENTS = '/residents'
